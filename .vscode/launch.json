@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "Strings.reverse",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "char_toggle",
+            "request": "launch",
+            "mainClass": "Strings.char_toggle",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "print_wave_form_L_R_R_L",
+            "request": "launch",
+            "mainClass": "Arrays.print_wave_form_L_R_R_L",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "print_column_wise",
+            "request": "launch",
+            "mainClass": "Arrays.print_column_wise",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "equal_to_K_of_i_j",
+            "request": "launch",
+            "mainClass": "Arrays.equal_to_K_of_i_j",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "count_max_one",
+            "request": "launch",
+            "mainClass": "Arrays.count_max_one",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "rotate_arr_k_times",
+            "request": "launch",
+            "mainClass": "Arrays.rotate_arr_k_times",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "reverse_part_array",
+            "request": "launch",
+            "mainClass": "Arrays.reverse_part_array",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "Arrays.reverse",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "max",
+            "request": "launch",
+            "mainClass": "Arrays.max",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "Arrays.sum",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "sum_mul_num",
+            "request": "launch",
+            "mainClass": "function.sum_mul_num",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "sqrt",
+            "request": "launch",
+            "mainClass": "function.sqrt",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "ncr",
+            "request": "launch",
+            "mainClass": "function.ncr",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "facturial",
+            "request": "launch",
+            "mainClass": "function.facturial",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
