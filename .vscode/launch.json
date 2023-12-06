@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "print_increasing",
+            "request": "launch",
+            "mainClass": "Recursion.print_increasing",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "fibonacciSeries",
+            "request": "launch",
+            "mainClass": "Recursion.fibonacciSeries",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "Recursion.factorial",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "sumOfN",
+            "request": "launch",
+            "mainClass": "Recursion.sumOfN",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "Binary_Search.binarySearch",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Good_integer",
+            "request": "launch",
+            "mainClass": "sorting.Good_integer",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "distinct_Good_integers",
+            "request": "launch",
+            "mainClass": "sorting.distinct_Good_integers",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "removerOrder",
+            "request": "launch",
+            "mainClass": "sorting.removerOrder",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "sorting.bubblesort",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "reverse",
             "request": "launch",
             "mainClass": "Strings.reverse",
