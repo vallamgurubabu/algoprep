@@ -11,21 +11,17 @@ public class rotate_arr_k_times {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
-        System.out.println("Enter the stat and end to rotate \n the start and end should be less than or equal to "+n);
-        int sp=s.nextInt();
-        int ep=s.nextInt();
         System.out.print("Enter K value : ");
         
         int k = s.nextInt();
-        reverse(arr,sp,ep);
-        reverse(arr,sp,k-1);
-        reverse(arr,k,ep);
+        reverse(arr,0,n-1);
+        reverse(arr,0,k-1);
+        reverse(arr,k,n-1);
         System.out.print("After the reverse : ");
          
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
-
         
     }
     public static void reverse(int arr[],int sp,int ep){
