@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Uniqe_Element",
+            "request": "launch",
+            "mainClass": "Bit_maniplution.Uniqe_Element",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Even_Odd_numbers",
+            "request": "launch",
+            "mainClass": "Bit_maniplution.Even_Odd_numbers",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "print_increasing",
             "request": "launch",
             "mainClass": "Recursion.print_increasing",
