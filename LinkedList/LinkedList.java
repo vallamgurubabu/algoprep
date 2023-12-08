@@ -22,9 +22,23 @@ public  class LinkedList {
         addLast(3);
         addLast(4);
         addLast(5);
-        addAtKPosition(4, 0);
-        addAtKPosition(1, 20);
+        
+        delete();
+        delete();
+        delete();
+        delete();
+        delete();
+        
+       
+        
         printList();
+        reverse();
+        addFirst(10);
+        addLast(20);
+        
+        printList();
+        System.out.println("Mid = "+mid());
+
     }
     public static void addFirst(int value){
         Node n1 = new Node(value);
@@ -58,5 +72,35 @@ public  class LinkedList {
             current=current.next;
         }
     }
-    
+    public static void delete(){
+        head=head.next;
+    }
+    public static void deleteLast(){
+        Node temp=head;
+        while(temp.next.next!=null){
+            temp=temp.next;
+        }
+        temp.next=null;
+    }
+    public static void reverse(){
+        Node current = head;
+        Node  Previous = null;
+        while (current!=null) {
+            Node currp = current.next;
+            current.next=Previous;
+            Previous=current;
+            current=currp;
+        }
+       head=Previous;
+    }
+public static int mid(){
+    Node fast = head;
+    Node slow = head;
+    while(fast.next != null && fast.next.next != null){
+        slow=slow.next;
+        fast=fast.next.next;
+
+    }
+    return slow.value;
+}
 }
