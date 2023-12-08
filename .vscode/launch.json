@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedList",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Frequency_Number",
+            "request": "launch",
+            "mainClass": "HashMap.Frequency_Number",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "Uniqe_Element",
             "request": "launch",
             "mainClass": "Bit_maniplution.Uniqe_Element",
