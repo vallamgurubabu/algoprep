@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "getMin",
+            "request": "launch",
+            "mainClass": "Stack.getMin",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "get_min",
+            "request": "launch",
+            "mainClass": "Stack.get_min",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "check_Brackets_order",
+            "request": "launch",
+            "mainClass": "Stack.check_Brackets_order",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "adjduplicatesString_rev",
+            "request": "launch",
+            "mainClass": "Stack.adjduplicatesString_rev",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "Even_Odd",
             "request": "launch",
             "mainClass": "Bit_maniplution.Even_Odd",
