@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KthPalindrome",
+            "request": "launch",
+            "mainClass": "Queues.KthPalindrome",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Kth_Number",
+            "request": "launch",
+            "mainClass": "Queues.Kth_Number",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "QueueUsingStacks",
             "request": "launch",
             "mainClass": "Queues.QueueUsingStacks",
