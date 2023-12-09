@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueUsingStacks",
+            "request": "launch",
+            "mainClass": "Queues.QueueUsingStacks",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Implement_Queue_Stack",
+            "request": "launch",
+            "mainClass": "Queues.Implement_Queue_Stack",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "reverse_k_elements",
+            "request": "launch",
+            "mainClass": "Queues.reverse_k_elements",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "getMin",
             "request": "launch",
             "mainClass": "Stack.getMin",
