@@ -18,5 +18,6 @@ public class Uniqe_Element {
             result=result^arr[i];
         }
         System.out.println(result);
+        s.close();
     }
 }

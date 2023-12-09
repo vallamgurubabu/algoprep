@@ -8,5 +8,6 @@ public class inputoutput {
         double fraction = s.nextDouble();
         System.out.println(number);
         System.out.println(fraction);
+        s.close();
     }
 }

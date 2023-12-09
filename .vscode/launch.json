@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Even_Odd",
+            "request": "launch",
+            "mainClass": "Bit_maniplution.Even_Odd",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Even_Odd_number",
+            "request": "launch",
+            "mainClass": "Bit_maniplution.Even_Odd_number",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "LinkedList",
             "request": "launch",
             "mainClass": "LinkedList.LinkedList",

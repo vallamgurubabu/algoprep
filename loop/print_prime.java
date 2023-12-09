@@ -10,7 +10,7 @@ public class print_prime {
                 System.out.print(i+" ");
             }
         }
-
+     s.close();
 
     }
     public static boolean isprime(int num){

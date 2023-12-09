@@ -12,16 +12,16 @@ public class reverse {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
-        reverse(arr);
+        reverse_number(arr);
         System.out.print("After the reverse : ");
          
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
-
+        s.close();
         
     }
-    public static void reverse(int arr[]){
+    public static void reverse_number(int arr[]){
         int sp=0;
         int ep=arr.length-1;
         while(sp<ep){

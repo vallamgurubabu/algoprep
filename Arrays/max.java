@@ -12,9 +12,10 @@ public class max {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
-        System.out.println("max num in given array elements is : "+max(arr));
+        s.close();
+        System.out.println("max num in given array elements is : "+max_num(arr));
     }
-    public static int max(int arr[]){
+    public static int max_num(int arr[]){
         int max= arr[0];
         for(int  i=1;i<arr.length;i++){
            if (max<arr[i]) {

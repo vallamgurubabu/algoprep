@@ -12,9 +12,10 @@ public class sum {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
-        System.out.println("Sum of array elements is : "+sum(arr));
+        System.out.println("Sum of array elements is : "+sum_num(arr));
+        s.close();
     }
-    public static int sum(int arr[]){
+    public static int sum_num(int arr[]){
         int sum = 0;
         for(int  i=0;i<arr.length;i++){
            sum=sum+arr[i];
@@ -22,5 +23,6 @@ public class sum {
         return sum;
 
     }
+
     
 }

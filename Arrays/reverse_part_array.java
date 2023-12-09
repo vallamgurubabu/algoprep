@@ -22,7 +22,7 @@ public class reverse_part_array {
             System.out.print(arr[i]+" ");
         }
 
-        
+    s.close();    
     }
     public static void reverse(int arr[],int sp,int ep){
         int n = arr.length;

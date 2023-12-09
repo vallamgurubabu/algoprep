@@ -9,6 +9,7 @@ public class reverse_number {
         int num=s.nextInt();
         int reverse = reverse(num);
         System.out.println(reverse);
+        s.close();
     }
     public static int reverse(int num){
         int rev=0;

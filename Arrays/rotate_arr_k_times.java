@@ -22,6 +22,7 @@ public class rotate_arr_k_times {
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
+        s.close();
         
     }
     public static void reverse(int arr[],int sp,int ep){

@@ -28,6 +28,7 @@ public class print_wave_form_L_R_R_L {
             System.out.println("");
             
         }
+        s.close();
     }
     
 }

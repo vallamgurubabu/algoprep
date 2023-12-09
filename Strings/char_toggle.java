@@ -16,6 +16,7 @@ public class char_toggle {
        for(int i =0;i<n;i++){
         System.out.print(c[i]+"");
        }
+       s.close();
     }
     public static void toggle(char c[]){
        for(int i =0;i<c.length;i++){

@@ -8,6 +8,7 @@ public class fibonacciSeries {
         System.out.print("Enter a number :");
         int n = s.nextInt();
         System.out.println(fib(n)); 
+        s.close();
     }
     public static int fib(int n){
         if(n==0||n==1){

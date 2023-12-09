@@ -8,6 +8,7 @@ public class sum_mul_num {
         System.out.print("Enter a Number : ");
         int n = s.nextInt();
         sum_mul(n);
+        s.close();
 
     }
     public static void sum_mul(int n ){

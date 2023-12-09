@@ -15,6 +15,7 @@ public class removerOrder {
         }
         
         System.out.println("Cost :"+removeCos(arr));
+        s.close();
 
     }
     public static int removeCos(int arr[]){

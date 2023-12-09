@@ -14,6 +14,7 @@ public class Good_integer {
             arr[i]=s.nextInt();
         }
         System.out.println(goodInteger(arr));
+        s.close();
     }
     public static int goodInteger(int arr[]){
         int n = arr.length;

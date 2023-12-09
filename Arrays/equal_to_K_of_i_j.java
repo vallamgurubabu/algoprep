@@ -15,6 +15,7 @@ public class equal_to_K_of_i_j {
         System.out.println("Enter K value : ");
         int k = s.nextInt();
         System.out.println(result(arr, k));
+        s.close();
 
     }
     public static boolean result(int arr[],int k){

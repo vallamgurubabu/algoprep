@@ -7,9 +7,10 @@ public class reverse {
         Scanner s = new Scanner(System.in);
        System.out.println("Enter a String ");
        String st=s.nextLine();
-       System.out.println(reverse(st));
+       System.out.println(reverse_str(st));
+       s.close();
     }
-    public static String reverse(String str){
+    public static String reverse_str(String str){
         char ch[]=str.toCharArray();
         int sp=0;
         int ep=ch.length-1;
@@ -21,7 +22,7 @@ public class reverse {
          sp++;
          ep--;
         }
-        String result = str.valueOf(ch);
+        String result = String.valueOf(ch);
         return result;
     }
     

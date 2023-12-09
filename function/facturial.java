@@ -10,6 +10,7 @@ public class facturial {
         System.out.print("facturial of a number is : ");
         int fact=fact(num);
         System.out.println(fact);
+        s.close();
     }
     public static int fact(int num){
         int ans=1;

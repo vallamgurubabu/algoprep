@@ -15,6 +15,7 @@ public class binarySearch {
         System.out.println("Enter Search Key ");
          int k = s.nextInt(); 
          System.out.println(BSearch(arr, k));
+         s.close();
     }
     public static boolean BSearch(int arr[],int k){
         int n = arr.length;

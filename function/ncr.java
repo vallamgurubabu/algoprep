@@ -14,7 +14,7 @@ public class ncr {
         int ncr = nfact/(rfact*nmrfact);
         System.out.println(ncr);
 
-
+       s.close();
         
     }
     public static int fact(int num){

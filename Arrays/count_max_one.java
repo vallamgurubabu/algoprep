@@ -15,6 +15,7 @@ public class count_max_one {
 
         }
         System.out.println(count_max_one_morethanitself(arr));
+        s.close();
    
     }
     public static int count_max_one_morethanitself(int arr[]){

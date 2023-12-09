@@ -18,5 +18,6 @@ public class factors_number {
 
         System.out.println(" ");
         System.out.println("the number of factors of a "+ num + " is "+count);
+        s.close();
     }
 }

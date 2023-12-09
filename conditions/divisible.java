@@ -12,6 +12,7 @@ public class divisible {
         }else{
             System.out.println(n+"Not divisible by 2 or 3");
         }
+        s.close();
     }
     
 }

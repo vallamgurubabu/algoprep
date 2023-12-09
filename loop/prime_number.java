@@ -7,11 +7,12 @@ public class prime_number {
         System.out.print("Enter a Number : ");
         int num = s.nextInt();
         isprime(num);
+        s.close();
 
     }
        public static void isprime(int num){
        int flag = 0;
-        for(int i =2;i<num;i++){
+        for(int i = 2 ; i < num ;){
          if(num%i==0){
             flag=1;
          }

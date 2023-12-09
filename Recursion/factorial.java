@@ -6,6 +6,8 @@ public class factorial {
         System.out.print("Enter a number :");
         int n = s.nextInt();
         System.out.println(fact(n));
+
+        s.close();
     }
     public static int fact(int n ){
         if(n==1){

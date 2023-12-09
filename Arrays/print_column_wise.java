@@ -22,7 +22,8 @@ public class print_column_wise {
             }  
             System.out.println("");
          }
+           s.close();
         }
-     
+   
     
 }

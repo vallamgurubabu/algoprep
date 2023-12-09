@@ -7,6 +7,7 @@ public class sumOfN {
         System.out.println("Enter a number : ");
         int n = s.nextInt();
         System.out.println("sum = "+sum(n));
+        s.close();
     }
     public static int sum(int n){
          if(n==1){
