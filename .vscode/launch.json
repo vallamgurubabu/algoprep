@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minpath",
+            "request": "launch",
+            "mainClass": "Dynamic_Programing.minpath",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "pathsWithBlocks",
             "request": "launch",
             "mainClass": "Dynamic_Programing.pathsWithBlocks",
