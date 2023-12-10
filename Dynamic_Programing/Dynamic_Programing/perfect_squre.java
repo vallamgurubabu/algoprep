@@ -1,5 +1,6 @@
 package Dynamic_Programing;
 
+
 import java.util.*;
 
 public class perfect_squre {

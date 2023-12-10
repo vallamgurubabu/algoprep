@@ -7,12 +7,12 @@ public class Fibonacci_Series {
         Scanner s = new Scanner(System.in);
         System.out.print("Enter N value : ");
         int n = s.nextInt();
-        s.close();
+      
         for(int i = 0;i<=n;i++){
          System.out.print(fib(i)+" ");
         }
         System.out.println(" = Fibonacci series of "+n +"th element is "+fib(n));
-        
+          s.close();
     }
     public static int fib(int n ){
         int dp[]=new int[n+1];

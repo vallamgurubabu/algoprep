@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pathsWithBlocks",
+            "request": "launch",
+            "mainClass": "Dynamic_Programing.pathsWithBlocks",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "paths",
+            "request": "launch",
+            "mainClass": "paths",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "perfect_squre",
             "request": "launch",
             "mainClass": "Dynamic_Programing.perfect_squre",
