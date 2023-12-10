@@ -13,6 +13,7 @@ public class reverse_k_elements {
         q1.add(50);
         q1.add(60);
         reverseAtKElements(q1, k);
+        s.close();
     }
     public static Queue<Integer> reverseAtKElements(Queue<Integer>q1,int k){
        Stack <Integer> q2 = new Stack<>();
