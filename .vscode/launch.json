@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "perfect_squre",
+            "request": "launch",
+            "mainClass": "Dynamic_Programing.perfect_squre",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "stairs_way",
+            "request": "launch",
+            "mainClass": "Dynamic_Programing.stairs_way",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci_Series",
+            "request": "launch",
+            "mainClass": "Dynamic_Programing.Fibonacci_Series",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "KthPalindrome",
             "request": "launch",
             "mainClass": "Queues.KthPalindrome",
