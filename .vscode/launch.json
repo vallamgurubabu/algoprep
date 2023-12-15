@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Queries_index_optimal",
+            "request": "launch",
+            "mainClass": "Arrays.Queries_index_optimal",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "Queries_index_sum",
+            "request": "launch",
+            "mainClass": "Arrays.Queries_index_sum",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "prefixsum_optimal",
+            "request": "launch",
+            "mainClass": "Arrays.prefixsum_optimal",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSum_bruteforce",
+            "request": "launch",
+            "mainClass": "Arrays.PrefixSum_bruteforce",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "minpath",
             "request": "launch",
             "mainClass": "Dynamic_Programing.minpath",
