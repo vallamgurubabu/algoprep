@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "range_addition",
+            "request": "launch",
+            "mainClass": "Arrays.range_addition",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "prefix_min",
+            "request": "launch",
+            "mainClass": "Arrays.prefix_min",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "prefix_max",
+            "request": "launch",
+            "mainClass": "Arrays.prefix_max",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "product_Except_itself",
             "request": "launch",
             "mainClass": "Arrays.product_Except_itself",
