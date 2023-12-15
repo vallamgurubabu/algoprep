@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "product_Except_itself",
+            "request": "launch",
+            "mainClass": "Arrays.product_Except_itself",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "Equilibrium_index",
             "request": "launch",
             "mainClass": "Arrays.Equilibrium_index",
