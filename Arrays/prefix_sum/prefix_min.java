@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.prefix_sum;
 import java.util.*;
  public class prefix_min {
         public static void main(String[] args) {

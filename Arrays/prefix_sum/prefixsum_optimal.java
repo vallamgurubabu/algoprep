@@ -3,7 +3,7 @@
 
 
 
-package Arrays;
+package Arrays.prefix_sum;
 
 import java.util.Scanner;
 

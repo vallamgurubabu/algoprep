@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sum_of_each_sub_array",
+            "request": "launch",
+            "mainClass": "Arrays.Subarray.Sum_of_each_sub_array",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "print_sub_array_based_index",
+            "request": "launch",
+            "mainClass": "Arrays.Subarray.print_sub_array_based_index",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "print_sub_array",
+            "request": "launch",
+            "mainClass": "Arrays.Subarray.print_sub_array",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "count",
+            "request": "launch",
+            "mainClass": "Arrays.Subarray.count",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "range_addition",
             "request": "launch",
             "mainClass": "Arrays.range_addition",

@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.prefix_sum;
 // time =o(n)
 // space = o(n)
 import java.util.Scanner;
