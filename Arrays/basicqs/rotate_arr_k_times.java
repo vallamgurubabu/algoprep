@@ -1,6 +1,6 @@
-package Arrays;
+package Arrays.basicqs;
 import java.util.Scanner;
-public class reverse_part_array {
+public class rotate_arr_k_times {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
@@ -11,18 +11,19 @@ public class reverse_part_array {
         for(int i=0;i<n;i++){
             arr[i]=s.nextInt();
         }
-        System.out.println("Enter the stat and end to rotate \n the start and end should be less than or equal to "+n);
-        int sp=s.nextInt();
-        int ep=s.nextInt();
-
-        reverse(arr,sp,ep);
+        System.out.print("Enter K value : ");
+        
+        int k = s.nextInt();
+        reverse(arr,0,n-1);
+        reverse(arr,0,k-1);
+        reverse(arr,k,n-1);
         System.out.print("After the reverse : ");
          
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
-
-    s.close();    
+        s.close();
+        
     }
     public static void reverse(int arr[],int sp,int ep){
         int n = arr.length;
@@ -39,4 +40,7 @@ public class reverse_part_array {
     }
 }
 
+
+
+    
 

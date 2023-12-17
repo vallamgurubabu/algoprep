@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Array_rotation90degrees",
+            "request": "launch",
+            "mainClass": "Arrays.TwoDArray.Array_rotation90degrees",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "transpose",
+            "request": "launch",
+            "mainClass": "Arrays.TwoDArray.transpose",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "SumOfAllSubArrayOptimal",
+            "request": "launch",
+            "mainClass": "Arrays.Subarray.SumOfAllSubArrayOptimal",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
+            "name": "SumOfAllSubarrays",
+            "request": "launch",
+            "mainClass": "Arrays.Subarray.SumOfAllSubarrays",
+            "projectName": "algoprep_3033c30b"
+        },
+        {
+            "type": "java",
             "name": "Sum_of_each_sub_array",
             "request": "launch",
             "mainClass": "Arrays.Subarray.Sum_of_each_sub_array",

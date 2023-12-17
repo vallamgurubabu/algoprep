@@ -1,8 +1,7 @@
 package Arrays.Subarray;
+import java.util.*;
+public class SumOfAllSubarrays {
 
-import java.util.Scanner;
-
-public class Sum_of_each_sub_array {
     public static void main(String[] args) {
          Scanner s = new Scanner(System.in);
         int n = s.nextInt();
@@ -15,19 +14,21 @@ public class Sum_of_each_sub_array {
     }
     public static void sum_of_each_sub(int a[]){
         int pre[]=prefixsum(a);
-        
+        int ans=0;
         for(int s =0;s<a.length;s++){
             
             for(int e=s;e<a.length;e++){
                  if(s==0){
-                    System.out.print(pre[e]); 
+                    ans+=pre[e]; 
                  }else{
-                   System.out.print(pre[e]-pre[s-1]);
+                   ans+=pre[e]-pre[s-1];
                  }
-                 System.out.println(" ");
+                
             }
            
+           
         }
+          System.out.println(ans+" ");
     }
     public static int[ ] prefixsum(int a[]){
         int n =a.length;
@@ -41,3 +42,5 @@ public class Sum_of_each_sub_array {
     }
     
 }
+
+
